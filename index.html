@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portafolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Emanuel Coitiño</h1>
+    <img src="assets/flor.png" alt="una flor">
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habcon">Hab y Con</a></li>
+            <li><a href="#tb">Educación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="sobre-mi">
+    <div class="contenido">
+        <div class="texto-sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="assets/OIP.jpg" alt="Mi carita hermosa" class="imagen-rostro">
+            <p id="primerp">Hola, me llamo Emanuel, esoty muy interesado en la programación <br> y aprender cada vez mas, por lo que en este momento <br> mi motivación esta por los cielos. En este punto me interesa aprender <br> la mayor cantidad de cosas posibles porque no tengo <br> una mira directa en el futuro por mi poca experiencia en esta area.</p>
+        </div>
+    </div>
+</section>
+
+<section id="habcon">
+    <h2>Habilidades y Conocimientos</h2>
+    <p>Por le momento mis conociemtnos acerca del tema de programación es muy escaso JAP es mi primer contacto con todo este tema, y al igual que este mis habilidades en este momento son muy pobre comparado a la inmesa cantidad de posibilidades que existen.</p>
+</section>
+
+<section id="tb">
+    <h2>Educación</h2>
+    <table id="tbed">
+        <tbody>
+            <tr>
+                <th>Titulo</th>
+                <th>Entiedad</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Jap fase 1</td>
+                <td>Ceibal</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Secundaria</td>
+                <td>Ln3</td>
+                <td>2016</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input placeholder="Tu nombre" type="text" id="nombre" name="nombre">
+        <label for="email">Email:</label>
+        <input placeholder="ema@gmail.com" type="email" id="email" name="email">
+        <label for="asunto">Asunto:</label>
+        <select name="asunto" id="asunto">
+            <option value="asuntos">-Asuntos-</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otros">Otro</option>
+        </select>
+        <label for="mensaje">Mensaje:</label>
+        <textarea placeholder="Tu mensaje" id="mensaje" name="mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <div id="redes">
+        <a target="_blank" href="https://www.instagram.com/emannuelrosano/" id="instagram"><img src="assets/instagram.png" alt="icono instagram"></a>
+        <a target="_blank" href="https://www.facebook.com/emanuel.coitino.9/" id="facebook"><img src="assets/facebook.png" alt="icono facebook"></a>
+        <a target="_blank" href="https://github.com/emawi12" id="hithub"><img src="assets/github.png" alt="icono hithub"></a>
+    </div>
+    <p>&copy; 2023 Mi Portafolio uwu</p>
+</footer>
+</body>
+</html>
